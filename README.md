@@ -1,11 +1,15 @@
 # Magic-check
 Beautify Radio and Checkbox with pure CSS.
 
-## Install
+### Demo
+
+[Demo](http://forsigner.com/magic-check)
+
+### Install
 - bower: `bower install --save magic-check`
 - npm: `npm install --save magic-check`
 
-## Usage
+### Usage
 
 ```html
 <link rel="stylesheet" href="bower_components/magic-check/css/magic-check.css">
