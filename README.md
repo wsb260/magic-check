@@ -37,7 +37,7 @@ Beautify Radio and Checkbox with pure CSS.
 
 <div>
   <input class="magic-checkbox" type="checkbox" name="layout" id="4" checked disabled="disabled">
-  <label for="4">Checked && Disabled</label>
+  <label for="4">Checked &amp;&amp; Disabled</label>
 </div>
 ```
 
@@ -61,6 +61,6 @@ Beautify Radio and Checkbox with pure CSS.
 
 <div>
   <input class="magic-radio" type="radio" id="44" disabled="disabled" checked>
-  <label for="44">Checked && Disabled</label>
+  <label for="44">Checked &amp;&amp; Disabled</label>
 </div>
 ```
