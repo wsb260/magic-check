@@ -1,2 +1,3 @@
-# flexout
-Layout base on Flexbox
+# magic-check
+
+Beautify Radio and Checkbox with pure CSS. 
