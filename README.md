@@ -67,11 +67,11 @@ npm install --save magic-check
 
 ### Browser compatibility
 
-Chrome
-Firefox
-Safari
-Opera
-IE9 && IE9+
+- Chrome
+- Firefox
+- Safari
+- Opera
+- IE9 && IE9+
 
 
 ### License
