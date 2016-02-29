@@ -1,10 +1,12 @@
-.magic-radio + label {
+input.magic-radio[type="radio"] {
   &:before {
     border-radius: 50%;
+    top: -2px;
+    left: -2px;
   }
   &:after {
-    top: 6px;
-    left: 6px;
+    top: 2px;
+    left: 2px;
     width: $dot-size;
     height: $dot-size;
     border-radius: 50%;
@@ -12,12 +14,16 @@
   }
 }
 
-.magic-radio:checked + label {
+input.magic-radio[type="radio"]:checked {
   &:before {
     border: 1px solid $main-color;
   }
+  &:after {
+    background: $main-color;
+    display: block;
+  }
 }
-.magic-radio:checked[disabled] + label {
+input.magic-radio[type="radio"][disabled]:checked {
   &:before {
     border: 1px solid $disabled-checked-color;
   }
