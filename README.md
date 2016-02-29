@@ -6,8 +6,14 @@ Beautify Radio and Checkbox with pure CSS.
 [Demo](http://forsigner.com/magic-check)
 
 ### Install
-- bower: `bower install --save magic-check`
-- npm: `npm install --save magic-check`
+
+``` bash
+# bower
+bower install --save magic-check
+
+# npm
+npm install --save magic-check
+```
 
 ### Usage
 
@@ -19,25 +25,21 @@ Beautify Radio and Checkbox with pure CSS.
 
 ```html
 <div>
-  <input class="magic-checkbox" type="checkbox" name="layout" id="1">
-  <label for="1">Normal</label>
+  <input class="magic-checkbox" type="checkbox" name="layout"> Normal
 </div>
 
 <div>
-  <input class="magic-checkbox" type="checkbox" name="layout" id="2" checked="checked">
-  <label for="2">Checked</label>
+  <input class="magic-checkbox" type="checkbox" name="layout" id="hello" checked="checked">
+  <label for="hello">Checked</label>
 </div>
 
 <div>
-  <input class="magic-checkbox" type="checkbox" name="layout" id="3" disabled="disabled">
-  <label for="3">
-    Disabled
-  </label>
+  <input class="magic-checkbox" type="checkbox" name="layout" disabled="disabled"> Disabled
 </div>
 
 <div>
-  <input class="magic-checkbox" type="checkbox" name="layout" id="4" checked disabled="disabled">
-  <label for="4">Checked && Disabled</label>
+  <input class="magic-checkbox" type="checkbox" name="layout"checked disabled="disabled" >
+   Checked && Disabled
 </div>
 ```
 
@@ -45,25 +47,31 @@ Beautify Radio and Checkbox with pure CSS.
 
 ```html
 <div>
-  <input class="magic-radio" type="radio" name="radio" id="11">
-  <label for="11">Normal</label>
+  <input class="magic-radio" type="radio" name="radio"> Normal
 </div>
 
 <div>
-  <input class="magic-radio" type="radio" name="radio" id="22" checked>
-  <label for="22">Checked</label>
+  <input class="magic-radio" type="radio" name="radio" checked> Checked
 </div>
 
 <div>
-  <input class="magic-radio" type="radio" id="33" disabled="disabled">
+  <input class="magic-radio" type="radio" id="world" disabled="disabled">
   <label for="33">Disabled</label>
 </div>
 
 <div>
-  <input class="magic-radio" type="radio" id="44" disabled="disabled" checked>
-  <label for="44">Checked && Disabled</label>
+  <input class="magic-radio" type="radio" disabled="disabled" checked>
+  <label>Checked && Disabled</label>
 </div>
 ```
+
+### Browser compatibility
+
+Chrome
+Firefox
+Safari
+Opera
+IE9 && IE9+
 
 
 ### License
