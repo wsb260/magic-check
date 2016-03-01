@@ -65,6 +65,14 @@ Beautify Radio and Checkbox with pure CSS.
 </div>
 ```
 
+### Browser compatibility
+
+- Chrome
+- Firefox
+- Safari
+- Opera
+- IE9 && IE9+
+
 
 ### License
 
