@@ -1,10 +1,10 @@
 @keyframes hover-color {
   from {
-    border-color: $border-color;
+    border-color: $magic-border-color;
   }
 
   to {
-    border-color: $main-color;
+    border-color: $magic-main-color;
   }
 }
 
@@ -38,10 +38,10 @@
     top: 0;
     left: 0;
     display: inline-block;
-    width: $checkbox-size;
-    height: $checkbox-size;
+    width: $magic-checkbox-size;
+    height: $magic-checkbox-size;
     content: '';
-    border: 1px solid $border-color;
+    border: 1px solid $magic-border-color;
   }
   &:after {
     position: absolute;
@@ -53,7 +53,7 @@
 .magic-radio[disabled] + label,
 .magic-checkbox[disabled] + label {
   cursor: not-allowed;
-  color: $disabled-color;
+  color: $magic-disabled-color;
   &:hover,
   &:before,
   &:after {
@@ -61,12 +61,12 @@
   }
   &:hover {
     &:before {
-      border: 1px solid $disabled-color;
+      border: 1px solid $magic-disabled-color;
       animation-name: none;
     }
   }
   &:before {
-    border-color: $disabled-color;
+    border-color: $magic-disabled-color;
   }
 }
 
