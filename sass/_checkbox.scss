@@ -19,13 +19,13 @@
 }
 .magic-checkbox:checked + label {
   &:before {
-    border: $main-color;
-    background: $main-color;
+    border: $magic-main-color;
+    background: $magic-main-color;
   }
 }
 .magic-checkbox:checked[disabled] + label {
   &:before {
-    border: $disabled-checked-color;
-    background: $disabled-checked-color;
+    border: $magic-disabled-checked-color;
+    background: $magic-disabled-checked-color;
   }
 }

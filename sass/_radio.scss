@@ -5,23 +5,23 @@
   &:after {
     top: 6px;
     left: 6px;
-    width: $dot-size;
-    height: $dot-size;
+    width: $magic-dot-size;
+    height: $magic-dot-size;
     border-radius: 50%;
-    background: $main-color;
+    background: $magic-main-color;
   }
 }
 
 .magic-radio:checked + label {
   &:before {
-    border: 1px solid $main-color;
+    border: 1px solid $magic-main-color;
   }
 }
 .magic-radio:checked[disabled] + label {
   &:before {
-    border: 1px solid $disabled-checked-color;
+    border: 1px solid $magic-disabled-checked-color;
   }
   &:after {
-    background: $disabled-checked-color;
+    background: $magic-disabled-checked-color;
   }
 }
