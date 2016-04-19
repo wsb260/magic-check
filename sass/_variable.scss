@@ -1,7 +1,7 @@
-$radio-size: 20px;
-$checkbox-size: 20px;
-$dot-size: 8px;
-$border-color: #c0c0c0;
-$main-color: #3e97eb;
-$disabled-color: lighten($border-color, 14%);
-$disabled-checked-color: lighten($main-color, 30%);
+$radio-size: 20px !default;
+$checkbox-size: 20px !default;
+$dot-size: 8px !default;
+$border-color: #c0c0c0 !default;
+$main-color: #3e97eb !default;
+$disabled-color: lighten($border-color, 14%) !default;
+$disabled-checked-color: lighten($main-color, 30%) !default;
